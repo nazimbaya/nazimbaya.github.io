@@ -74,6 +74,14 @@ header {
     font-size: 1.2rem;
     color: #a0aec0;
     transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .profile-image:hover {
@@ -212,6 +220,14 @@ section {
     justify-content: center;
     font-size: 0.9rem;
     color: #a0aec0;
+    overflow: hidden;
+}
+
+.project-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
 }
 
 .project-card h3 {
