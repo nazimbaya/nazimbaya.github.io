@@ -203,10 +203,9 @@ section {
     
     .stat-label {
         display: block;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 500;
         opacity: 0.8;
-        text-transform: uppercase;
         letter-spacing: 1px;
         color: #666;
     }
