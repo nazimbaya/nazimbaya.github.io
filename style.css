@@ -10,6 +10,8 @@ body {
     color: #2d3748;
     background: #ffffff;
     overflow-x: hidden;
+    font-weight: 300; /* Police plus fine */
+    font-size: 18px; /* Taille de police de base plus grande */
 }
 
 .container {
@@ -21,7 +23,7 @@ body {
 /* Header */
 header {
     padding: 3rem 0;
-    background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+    background: #ffffff; /* Arrière-plan complètement blanc */
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -35,25 +37,26 @@ header {
 }
 
 .hero-content h1 {
-    font-size: 3.5rem;
-    font-weight: 300;
+    font-size: 4rem; /* Plus grand */
+    font-weight: 200; /* Plus fin */
     margin-bottom: 1rem;
     color: #1a202c;
     letter-spacing: -0.02em;
 }
 
 .hero-content .subtitle {
-    font-size: 1.3rem;
+    font-size: 1.5rem; /* Plus grand */
     color: #4a5568;
     margin-bottom: 2rem;
-    font-weight: 300;
+    font-weight: 200; /* Plus fin */
 }
 
 .hero-content .description {
-    font-size: 1.1rem;
+    font-size: 1.2rem; /* Plus grand */
     color: #718096;
     line-height: 1.8;
     margin-bottom: 3rem;
+    font-weight: 300; /* Fin */
 }
 
 .hero-image {
@@ -111,8 +114,8 @@ nav ul {
 nav a {
     text-decoration: none;
     color: #4a5568;
-    font-weight: 400;
-    font-size: 0.95rem;
+    font-weight: 300; /* Plus fin */
+    font-size: 1rem; /* Plus grand */
     transition: color 0.3s ease;
     letter-spacing: 0.5px;
 }
@@ -124,11 +127,12 @@ nav a:hover {
 /* Sections */
 section {
     padding: 6rem 0;
+    background: #ffffff; /* Arrière-plan blanc */
 }
 
 .section-title {
-    font-size: 2.5rem;
-    font-weight: 300;
+    font-size: 3rem; /* Plus grand */
+    font-weight: 200; /* Plus fin */
     text-align: center;
     margin-bottom: 4rem;
     color: #1a202c;
@@ -143,10 +147,11 @@ section {
 }
 
 .about-content p {
-    font-size: 1.2rem;
+    font-size: 1.3rem; /* Plus grand */
     color: #4a5568;
     line-height: 1.8;
     margin-bottom: 2rem;
+    font-weight: 300; /* Fin */
 }
 
 .stats {
@@ -159,21 +164,23 @@ section {
 .stat-item {
     text-align: center;
     padding: 2rem;
-    background: #f8fafc;
+    background: #ffffff; /* Arrière-plan blanc au lieu de gris */
     border-radius: 12px;
+    border: 1px solid #e2e8f0; /* Bordure subtile pour définir les éléments */
 }
 
 .stat-number {
-    font-size: 2.5rem;
-    font-weight: 300;
+    font-size: 3rem; /* Plus grand */
+    font-weight: 200; /* Plus fin */
     color: #2d3748;
     display: block;
 }
 
 .stat-label {
     color: #718096;
-    font-size: 0.95rem;
+    font-size: 1rem; /* Plus grand */
     margin-top: 0.5rem;
+    font-weight: 300; /* Fin */
 }
 
 /* Projects Section */
@@ -231,16 +238,18 @@ section {
 }
 
 .project-card h3 {
-    font-size: 1.5rem;
+    font-size: 1.7rem; /* Plus grand */
     margin-bottom: 1rem;
     color: #1a202c;
-    font-weight: 400;
+    font-weight: 300; /* Plus fin */
 }
 
 .project-card p {
     color: #4a5568;
     line-height: 1.7;
     margin-bottom: 1.5rem;
+    font-size: 1.1rem; /* Plus grand */
+    font-weight: 300; /* Fin */
 }
 
 .project-status {
@@ -249,8 +258,8 @@ section {
     background: #e6fffa;
     color: #234e52;
     border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 500;
+    font-size: 0.9rem; /* Plus grand */
+    font-weight: 400; /* Moins gras */
 }
 
 .project-link {
@@ -259,9 +268,10 @@ section {
     gap: 0.5rem;
     color: #4a5568;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem; /* Plus grand */
     margin-top: 1rem;
     transition: color 0.3s ease;
+    font-weight: 300; /* Fin */
 }
 
 .project-link:hover {
@@ -270,7 +280,7 @@ section {
 
 /* Footer */
 footer {
-    background: #f8fafc;
+    background: #ffffff; /* Arrière-plan blanc au lieu de gris */
     padding: 4rem 0 2rem;
     text-align: center;
     border-top: 1px solid #e2e8f0;
@@ -286,8 +296,8 @@ footer {
 }
 
 .contact-info h3 {
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-size: 1.7rem; /* Plus grand */
+    font-weight: 300; /* Plus fin */
     margin-bottom: 1rem;
     color: #1a202c;
 }
@@ -295,6 +305,8 @@ footer {
 .contact-info p {
     color: #4a5568;
     margin-bottom: 0.5rem;
+    font-size: 1.1rem; /* Plus grand */
+    font-weight: 300; /* Fin */
 }
 
 .footer-bottom {
@@ -302,7 +314,8 @@ footer {
     padding-top: 2rem;
     border-top: 1px solid #e2e8f0;
     color: #718096;
-    font-size: 0.9rem;
+    font-size: 1rem; /* Plus grand */
+    font-weight: 300; /* Fin */
 }
 
 /* Responsive */
@@ -314,7 +327,7 @@ footer {
     }
 
     .hero-content h1 {
-        font-size: 2.5rem;
+        font-size: 2.8rem; /* Ajusté pour mobile mais toujours grand */
     }
 
     .stats {
@@ -332,6 +345,10 @@ footer {
 
     .container {
         padding: 0 1rem;
+    }
+
+    body {
+        font-size: 16px; /* Légèrement plus petit sur mobile */
     }
 }
 
