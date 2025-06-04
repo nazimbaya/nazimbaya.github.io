@@ -313,16 +313,16 @@ footer {
         margin: 20px 0;
     }
     
-    .phone {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        margin-bottom: 15px;
-        font-size: 16px;
-        color: #333;
-    }
+    .phone, .email {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+            font-size: 16px;
+            color: #333;
+        }
     
-    .phone i {
+    .phone i, .email i {
         color: #4CAF50;
         font-size: 18px;
     }
