@@ -309,6 +309,76 @@ footer {
     font-weight: 300; /* Fin */
 }
 
+ .contact-details {
+        margin: 20px 0;
+    }
+    
+    .phone {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 15px;
+        font-size: 16px;
+        color: #333;
+    }
+    
+    .phone i {
+        color: #4CAF50;
+        font-size: 18px;
+    }
+    
+    .social-links {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+    
+    .social-links a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 45px;
+        height: 45px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border-radius: 50%;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        font-size: 20px;
+    }
+    
+    .social-links a:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    }
+    
+    .social-links a[href*="linkedin"]:hover {
+        background: #0077b5;
+    }
+    
+    .social-links a[href*="facebook"]:hover {
+        background: #1877f2;
+    }
+    
+    .social-links a[href*="twitter"]:hover {
+        background: #1da1f2;
+    }
+    
+    .social-links a[href*="instagram"]:hover {
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    }
+    
+    @media (max-width: 768px) {
+        .social-links {
+            justify-content: center;
+        }
+        
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            font-size: 18px;
+        }
+
 .footer-bottom {
     margin-top: 2rem;
     padding-top: 2rem;
