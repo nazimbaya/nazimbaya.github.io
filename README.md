@@ -1,1 +1,0 @@
-# nazimbaya.github.io
